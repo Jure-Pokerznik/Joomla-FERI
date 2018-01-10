@@ -1,0 +1,429 @@
+body{
+  font-weight: 300;
+  font-family: 'Open Sans',sans-serif;
+  line-height: 1.5;
+}
+
+article {
+  background-color: #fff;
+  border: 7px solid #e0dfdd;
+  padding: 1em;
+  margin: 0 0 1em;
+  position: relative;
+  display: block
+}
+
+/*Footer matching*/
+footer li {
+    float: left;
+
+    margin: 0;
+    border-right: 1px solid #cbcbcb;
+    transform-style: preserve-3d;
+    height: 100px
+  }
+  
+  footer li p {
+    font-size: .857em;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+  
+  .footer-address {
+    border-left: 1px solid #cbcbcb;
+    width: 34%
+  }
+  
+  .footer-contact {
+    width: 16%
+  }
+  
+  .footer-contact i {
+    margin-right: .5em
+  }
+  
+  .footer-social {
+
+    font-size: 2.429em;
+    /*!important;*/
+    width: 16%
+  }
+  
+  .footer-social a {
+
+    text-decoration: none
+  }
+  
+  .footer-social a:hover {
+    color: #ffc609;
+    transition: color .2s ease-in-out
+  }
+  
+  .footer-interno {
+    width: 34%
+  }
+  
+  .footer-interno a {
+    display: block
+  }
+  
+  .footer-interno .half-block-left,
+  .footer-interno .half-block-right {
+    height: 100px
+  }
+  
+  .footer-interno-sec-hidden {
+    display: none
+  }
+  
+  #copyright {
+    background-color: #036384;
+    color: #fff;
+    text-align: center;
+
+    font-size: .857em
+  }
+  
+  #copyright a,
+  #copyright a:hover,
+  #copyright a:visited {
+    color: #fff;
+    text-decoration: none
+  }
+  
+  .side-nav {
+    margin: 0;
+
+    list-style: none;
+    background: #fff;
+    border-top: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb
+  }
+  
+  .side-nav li {
+    display: block;
+    position: relative;
+    margin: 0;
+    border-left: 1px solid #ffc609;
+    background: #fff;
+    border-bottom: 1px solid #cbcbcb
+  }
+  
+  .side-nav li.submenu {
+    border-bottom-style: dashed
+  }
+
+    .files li {
+    margin: 0
+  }
+  
+  .files span {
+    text-decoration: underline
+  }
+  
+  .files .fa {
+    font-size: 1.071em;
+
+  }
+  
+  .files .povezava-priloga {
+    list-style: none;
+
+    margin-left: 0
+  }
+  
+  .files .povezava-priloga li {
+    line-height: 24px
+  }
+  
+  .MarkupPagerNav {
+   
+    margin: 0
+  }
+  
+  .MarkupPagerNav li {
+    display: inline;
+    list-style: none;
+    margin-left: auto
+  }
+  
+  .MarkupPagerNav li a,
+  .MarkupPagerNav li.MarkupPagerNavSeparator {
+    display: block;
+    float: left;
+    
+    color: #fff;
+    background: #2f4248;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none
+  }
+  
+  .MarkupPagerNav li.MarkupPagerNavOn a,
+  .MarkupPagerNav li a:hover {
+    color: #fff;
+    background: #036384;
+    text-decoration: none
+  }
+  
+  .MarkupPagerNav li.MarkupPagerNavSeparator {
+    display: inline;
+    margin-left: 0;
+
+    background: transparent;
+    color: #2f4248
+  }
+  
+  .jn {
+    margin-bottom: 1em
+  }
+  
+  .half-block-left,
+  .half-block-right {
+    width: 50%;
+    float: left
+  }
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*footer end*/
+
+h1{
+  font-weight: 300!important;
+  color: #036384;
+  /*font-family: 'Open Sans',sans-serif;*/ /*Already inherited by index*/
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0px 0px 0px 250px;
+    transition: color 90000ms, background-color 90000ms, border-color 90000ms;
+  }
+.btn-default {
+  color: #036384!important;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+
+}
+
+.btn-default:hover{
+  color: #036384!important;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  text-decoration: underline;
+
+}
+
+.btn-default:active{
+  color: #036384!important;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.btn-default:focus{
+  color: #036384!important;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+h2{
+  color: #136384!important;
+  font-size: 1.071em!important;
+  text-transform: uppercase!important;
+  font-weight: 400!important;
+}
+
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #036384;
+
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #036384;
+
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #036384;
+}
+#offcanvas-toggler >i {
+  color: #ffffff;
+}
+#offcanvas-toggler >i:hover {
+  color: #ffffff;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #0faae4;
+  background-color: #036384;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #0d8ab9;
+  background-color: #0e9cd1;
+}
+ul.social-icons >li a:hover {
+  color: #036384;
+}
+.sp-page-title {
+  background: #036384;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #fff;
+}
+.sp-module ul >li >a:hover {
+  color: #036384;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #036384;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #036384;
+}
+.sp-simpleportfolio .sp-simpleportfolio-fieter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-fieter > ul > li > a:hover {
+  background: #036384;
+}
+.search .btn-toolbar button {
+  background: #036384;
+}
+.post-format {
+  background: rgba(224, 223, 221, 0);
+}
+.voting-symbol span.star.active:before {
+  color: #036384;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #0e9cd1;
+}
+.entry-link,
+.entry-quote {
+  background: #036384;
+}
+blockquote {
+  border-color: #036384;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #036384;
+}
+#sp-footer {
+  background: white;
+}
+.sp-comingsoon body {
+  background-color:  #036384;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #036384;
+  background-color: #036384;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #036384;
+  background-color: #036384;
+}
+.et-title h6,
+.et-slider .tp-caption a,
+.et-intro-item:hover i,
+.et-about-item,
+.et-portfolio-button:hover,
+.et-action-button:hover,
+.et-table-item:hover button,
+.et-team-item .qx-person-img:before {
+  background: #036384;
+}
+.et-intro-item i,
+.et-table-item h3,
+.et-table-item .table-price .price,
+.et-table-item button:hover a,
+.et-testimonial p.qx-designation,
+.et-testimonial button,
+.et-team-item h4 {
+  color: #036384; 
+}
+.et-portfolio-button:hover,
+.et-action-button:hover,
+.et-table-item:hover,
+.et-counter-item-3,
+.et-table-item button,
+.et-subscribe-content table .button:hover {
+  border-color: #036384;
+}
+/* Important */
+#qx-blurb-52193 .qx-icon,
+.et-feature-item i,
+.et-feature-item h4,
+.et-slider-text,
+.et-services-item:hover i,
+.product-title a,
+.et-categories-item h4,
+.tp-caption.excerpt, .excerpt,
+.tp-caption.excerpt_second, .excerpt_second,
+.et-blog div.k2ItemsBlock ul li a,
+.et-services-item:hover h4 {
+  color: #036384!important; 
+}
+
+/*just the top thingy to be blue color */
+
+.sp-top2 a{
+  color: #fff;
+}
+
+#sp-top2 a:hover{
+  color: #ffc609;
+}
+.et-contact #sp-quickcontact-form .button:hover,
+.projects-fieter a.selected,
+#et-newsletter,
+.qx-fg-filter > li > a.btn:hover,
+.qx-fg-filter > li > a.btn.active,
+.projects-filter a.selected,
+.et-subscribe-content table .button:hover {
+  background: #036384!important;  
+}
+.et-contact #sp-quickcontact-form .button:hover {
+  border-color: #036384!important; 
+}
+.projects-wrapper .project-img .project-img-extra {
+    background-image: -webkit-linear-gradient(top , rgba(112, 188, 79, 0.58) 0%, rgba(112, 188, 79, 0.62) 100%)!important;
+}
+
+#sp-top-bar {
+  background-color: #fff!important;
+}
